@@ -1,0 +1,11 @@
+<SUBJECT>Welcome to Stratum</SUBJECT>
+<BODY>
+<table cellspacing="5px" border="0">
+<tr><td>Dear {{FNAME}} {{LNAME}},</td></tr>
+<tr><td>An account has been created for you on Stratum. Please access the site following these steps - </td></tr>
+<tr><td>1. Click this URL - <a href="{{SITE_URL}}">{{SITE_URL}}</a></td></tr>
+<tr><td>2. Enter your login credentials, sent in previous mail.</td></tr>
+<tr><td>3. Click the 'Login' Button</td></tr>
+<tr><td></td></tr>
+</table>
+</BODY>

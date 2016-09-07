@@ -1,0 +1,12 @@
+<SUBJECT>Reflection - Forgot password </SUBJECT>
+<BODY>
+<table cellspacing="5px" border="0">
+<tr><td>Dear {{FNAME}} {{MNAME}}{{LNAME}},</td></tr>
+
+<tr><td>Your new password is given below.</td></tr>
+
+<tr><td>Password: {{Password}}</td></tr>
+
+<tr><td></td></tr>
+</table>
+</BODY>

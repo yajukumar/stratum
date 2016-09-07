@@ -1,0 +1,21 @@
+<SUBJECT>Welcome to Stratum</SUBJECT>
+<BODY>
+<table cellspacing="5px" border="0">
+<tr><td>Dear {{FNAME}} {{LNAME}},</td></tr>
+<tr><td></td></tr>
+<tr><td>Thank you for registering at Stratum the php framework. </td></tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr><td>This is the e-mail verification step.</td></tr>
+<tr><td><b>You must click on the link below (or copy and paste it into your browser URL line) and enter given token for your registration to be processed!</b></td></tr>
+<tr><td>Email Verification link: <a href="{{ACTIVATION_LINK}}">{{ACTIVATION_LINK}}</a></td></tr>
+<tr><td>Token: {{TOKEN}}</td></tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr><td>Once you verify your email, you will be able to login 
+</td></tr>
+<tr><td>Username: {{USERNAME}}</td></tr>
+<tr><td>Password: {{PASSWORD}}</td></tr>
+<tr><td></td></tr>
+</table>
+</BODY>

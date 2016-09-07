@@ -1,0 +1,11 @@
+<SUBJECT>Test Email</SUBJECT>
+<BODY>
+<table cellpadding='1' cellspacing='1' border='0'>
+<tr><td colspan='2'>Dear {{FNAME}}&nbsp; {{LNAME}}</td></tr>
+<tr><td colspan='2'><br/><br/>This is test email. 
+<tr><td colspan='2'></td></tr>
+<tr><td colspan='2'>&nbsp;</td></tr>
+
+<tr><td colspan='2'>Thank you.<br/>Memory Clinic</td></tr>
+</table>
+</BODY>

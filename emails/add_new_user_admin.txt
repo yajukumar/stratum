@@ -1,0 +1,11 @@
+<SUBJECT>New Registration at Stratum</SUBJECT>
+<BODY>
+<table cellspacing="5px" border="0">
+<tr><td>Dear Admin,</td></tr>
+<tr><td></td></tr>
+<tr><td>A new user has registered at Stratum. </td></tr>
+<tr><td>Username: {{USERNAME}}</td></tr>
+<tr><td>Name: {{FNAME}} {{LNAME}}</td></tr>
+<tr><td>Email ID: {{EMAILID}}</td></tr>
+</table>
+</BODY>

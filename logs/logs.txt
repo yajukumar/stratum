@@ -1,0 +1,1360 @@
+[11-Oct-2014 08:59:50 Europe/Paris] PHP Parse error:  syntax error, unexpected 'SELECT' (T_STRING) in C:\wamp\www\cware\ratingtool\system\user\user.php on line 39
+[11-Oct-2014 08:59:50 Europe/Paris] PHP Stack trace:
+[11-Oct-2014 08:59:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\cware\ratingtool\index.php:0
+[11-Oct-2014 08:59:50 Europe/Paris] PHP   2. stmImport() C:\wamp\www\cware\ratingtool\index.php:35
+[11-Oct-2014 08:59:50 Europe/Paris] PHP   3. require_once() C:\wamp\www\cware\ratingtool\system\utility.php:25
+[11-Oct-2014 08:59:50 Europe/Paris] PHP   4. stmImport() C:\wamp\www\cware\ratingtool\system\bootstrap.php:49
+[11-Oct-2014 09:46:33 Europe/Paris] PHP Fatal error:  Call to undefined method AppGizmo::loginMsg() in C:\wamp\www\cware\ratingtool\system\libraries\document\template.php on line 175
+[11-Oct-2014 09:46:33 Europe/Paris] PHP Stack trace:
+[11-Oct-2014 09:46:33 Europe/Paris] PHP   1. {main}() C:\wamp\www\cware\ratingtool\index.php:0
+[11-Oct-2014 09:46:33 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\cware\ratingtool\index.php:41
+[11-Oct-2014 09:46:33 Europe/Paris] PHP   3. StmApplication->renderGizmo() C:\wamp\www\cware\ratingtool\system\application.php:36
+[11-Oct-2014 09:46:33 Europe/Paris] PHP   4. StmTemplate->includeGizmo() C:\wamp\www\cware\ratingtool\system\application.php:82
+[11-Oct-2014 12:06:52 Europe/Paris] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in C:\wamp\www\cware\ratingtool\system\libraries\document\template.php on line 207
+[11-Oct-2014 12:06:52 Europe/Paris] PHP Stack trace:
+[11-Oct-2014 12:06:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\cware\ratingtool\index.php:0
+[11-Oct-2014 12:06:52 Europe/Paris] PHP   2. stmImport() C:\wamp\www\cware\ratingtool\index.php:35
+[11-Oct-2014 12:06:52 Europe/Paris] PHP   3. require_once() C:\wamp\www\cware\ratingtool\system\utility.php:25
+[11-Oct-2014 12:06:52 Europe/Paris] PHP   4. stmImport() C:\wamp\www\cware\ratingtool\system\bootstrap.php:45
+[14-Oct-2014 09:29:56 Europe/Paris] PHP Parse error:  syntax error, unexpected '}' in C:\wamp\www\cware\ratingtool\application\models\register.php on line 20
+[14-Oct-2014 09:29:56 Europe/Paris] PHP Stack trace:
+[14-Oct-2014 09:29:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\cware\ratingtool\index.php:0
+[14-Oct-2014 09:29:56 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\cware\ratingtool\index.php:41
+[14-Oct-2014 09:29:56 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\cware\ratingtool\system\application.php:35
+[14-Oct-2014 09:29:56 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\cware\ratingtool\system\application.php:93
+[14-Oct-2014 09:29:56 Europe/Paris] PHP   5. stmImport() C:\wamp\www\cware\ratingtool\system\libraries\document\template.php:105
+[14-Oct-2014 09:30:29 Europe/Paris] PHP Fatal error:  Call to undefined function pirtn_r() in C:\wamp\www\cware\ratingtool\application\views\register.php on line 5
+[14-Oct-2014 09:30:29 Europe/Paris] PHP Stack trace:
+[14-Oct-2014 09:30:29 Europe/Paris] PHP   1. {main}() C:\wamp\www\cware\ratingtool\index.php:0
+[14-Oct-2014 09:30:29 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\cware\ratingtool\index.php:41
+[14-Oct-2014 09:30:29 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\cware\ratingtool\system\application.php:35
+[14-Oct-2014 09:30:29 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\cware\ratingtool\system\application.php:93
+[14-Oct-2014 09:30:29 Europe/Paris] PHP   5. StmController->view() C:\wamp\www\cware\ratingtool\system\libraries\document\template.php:120
+[14-Oct-2014 09:30:29 Europe/Paris] PHP   6. require_once() C:\wamp\www\cware\ratingtool\system\controller.php:29
+[14-Oct-2014 09:30:39 Europe/Paris] PHP Fatal error:  Call to undefined function pirnt_r() in C:\wamp\www\cware\ratingtool\application\views\register.php on line 5
+[14-Oct-2014 09:30:39 Europe/Paris] PHP Stack trace:
+[14-Oct-2014 09:30:39 Europe/Paris] PHP   1. {main}() C:\wamp\www\cware\ratingtool\index.php:0
+[14-Oct-2014 09:30:39 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\cware\ratingtool\index.php:41
+[14-Oct-2014 09:30:39 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\cware\ratingtool\system\application.php:35
+[14-Oct-2014 09:30:39 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\cware\ratingtool\system\application.php:93
+[14-Oct-2014 09:30:39 Europe/Paris] PHP   5. StmController->view() C:\wamp\www\cware\ratingtool\system\libraries\document\template.php:120
+[14-Oct-2014 09:30:39 Europe/Paris] PHP   6. require_once() C:\wamp\www\cware\ratingtool\system\controller.php:29
+[15-Oct-2014 11:49:19 Europe/Paris] PHP Parse error:  syntax error, unexpected '<' in C:\wamp\www\cware\ratingtool\application\views\userprofile.php on line 118
+[15-Oct-2014 11:49:19 Europe/Paris] PHP Stack trace:
+[15-Oct-2014 11:49:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\cware\ratingtool\index.php:0
+[15-Oct-2014 11:49:19 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\cware\ratingtool\index.php:41
+[15-Oct-2014 11:49:19 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\cware\ratingtool\system\application.php:35
+[15-Oct-2014 11:49:19 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\cware\ratingtool\system\application.php:93
+[15-Oct-2014 11:49:19 Europe/Paris] PHP   5. StmController->view() C:\wamp\www\cware\ratingtool\system\libraries\document\template.php:120
+[15-Oct-2014 15:16:06 Europe/Paris] PHP Fatal error:  Call to a member function getSiteMenuItem() on a non-object in C:\wamp\www\cware\ratingtool\application\gizmos\leftmenu.php on line 33
+[15-Oct-2014 15:16:06 Europe/Paris] PHP Stack trace:
+[15-Oct-2014 15:16:06 Europe/Paris] PHP   1. {main}() C:\wamp\www\cware\ratingtool\index.php:0
+[15-Oct-2014 15:16:06 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\cware\ratingtool\index.php:41
+[15-Oct-2014 15:16:06 Europe/Paris] PHP   3. StmApplication->renderGizmo() C:\wamp\www\cware\ratingtool\system\application.php:36
+[15-Oct-2014 15:16:06 Europe/Paris] PHP   4. StmTemplate->includeGizmo() C:\wamp\www\cware\ratingtool\system\application.php:82
+[15-Oct-2014 15:16:06 Europe/Paris] PHP   5. AppGizmo->leftmenu() C:\wamp\www\cware\ratingtool\system\libraries\document\template.php:176
+[15-Oct-2014 15:16:06 Europe/Paris] PHP   6. StmGizmo->view() C:\wamp\www\cware\ratingtool\application\gizmos\gizmos.php:42
+[15-Oct-2014 15:16:06 Europe/Paris] PHP   7. include() C:\wamp\www\cware\ratingtool\system\gizmo.php:34
+[16-Oct-2014 09:43:57 Europe/Paris] PHP Fatal error:  Cannot use object of type StmUser as array in C:\wamp\www\cware\ratingtool\application\gizmos\header.php on line 3
+[16-Oct-2014 09:43:57 Europe/Paris] PHP Stack trace:
+[16-Oct-2014 09:43:57 Europe/Paris] PHP   1. {main}() C:\wamp\www\cware\ratingtool\index.php:0
+[16-Oct-2014 09:43:57 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\cware\ratingtool\index.php:41
+[16-Oct-2014 09:43:57 Europe/Paris] PHP   3. StmApplication->renderGizmo() C:\wamp\www\cware\ratingtool\system\application.php:36
+[16-Oct-2014 09:43:57 Europe/Paris] PHP   4. StmTemplate->includeGizmo() C:\wamp\www\cware\ratingtool\system\application.php:82
+[16-Oct-2014 09:43:57 Europe/Paris] PHP   5. AppGizmo->header() C:\wamp\www\cware\ratingtool\system\libraries\document\template.php:176
+[16-Oct-2014 09:43:57 Europe/Paris] PHP   6. StmGizmo->view() C:\wamp\www\cware\ratingtool\application\gizmos\gizmos.php:37
+[16-Oct-2014 09:43:57 Europe/Paris] PHP   7. include() C:\wamp\www\cware\ratingtool\system\gizmo.php:34
+[16-Oct-2014 09:44:36 Europe/Paris] PHP Fatal error:  Call to undefined function pritn_r() in C:\wamp\www\cware\ratingtool\application\gizmos\header.php on line 2
+[16-Oct-2014 09:44:36 Europe/Paris] PHP Stack trace:
+[16-Oct-2014 09:44:36 Europe/Paris] PHP   1. {main}() C:\wamp\www\cware\ratingtool\index.php:0
+[16-Oct-2014 09:44:36 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\cware\ratingtool\index.php:41
+[16-Oct-2014 09:44:36 Europe/Paris] PHP   3. StmApplication->renderGizmo() C:\wamp\www\cware\ratingtool\system\application.php:36
+[16-Oct-2014 09:44:36 Europe/Paris] PHP   4. StmTemplate->includeGizmo() C:\wamp\www\cware\ratingtool\system\application.php:82
+[16-Oct-2014 09:44:36 Europe/Paris] PHP   5. AppGizmo->header() C:\wamp\www\cware\ratingtool\system\libraries\document\template.php:176
+[16-Oct-2014 09:44:36 Europe/Paris] PHP   6. StmGizmo->view() C:\wamp\www\cware\ratingtool\application\gizmos\gizmos.php:37
+[16-Oct-2014 09:44:36 Europe/Paris] PHP   7. include() C:\wamp\www\cware\ratingtool\system\gizmo.php:34
+[16-Oct-2014 09:52:08 Europe/Paris] PHP Parse error:  syntax error, unexpected '$user' (T_VARIABLE), expecting ',' or ';' in C:\wamp\www\cware\ratingtool\application\gizmos\header.php on line 10
+[16-Oct-2014 09:52:08 Europe/Paris] PHP Stack trace:
+[16-Oct-2014 09:52:08 Europe/Paris] PHP   1. {main}() C:\wamp\www\cware\ratingtool\index.php:0
+[16-Oct-2014 09:52:08 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\cware\ratingtool\index.php:41
+[16-Oct-2014 09:52:08 Europe/Paris] PHP   3. StmApplication->renderGizmo() C:\wamp\www\cware\ratingtool\system\application.php:36
+[16-Oct-2014 09:52:08 Europe/Paris] PHP   4. StmTemplate->includeGizmo() C:\wamp\www\cware\ratingtool\system\application.php:82
+[16-Oct-2014 09:52:08 Europe/Paris] PHP   5. AppGizmo->header() C:\wamp\www\cware\ratingtool\system\libraries\document\template.php:176
+[16-Oct-2014 09:52:08 Europe/Paris] PHP   6. StmGizmo->view() C:\wamp\www\cware\ratingtool\application\gizmos\gizmos.php:37
+[16-Oct-2014 09:52:17 Europe/Paris] PHP Parse error:  syntax error, unexpected '$user' (T_VARIABLE), expecting ',' or ';' in C:\wamp\www\cware\ratingtool\application\gizmos\header.php on line 10
+[16-Oct-2014 09:52:17 Europe/Paris] PHP Stack trace:
+[16-Oct-2014 09:52:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\cware\ratingtool\index.php:0
+[16-Oct-2014 09:52:17 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\cware\ratingtool\index.php:41
+[16-Oct-2014 09:52:17 Europe/Paris] PHP   3. StmApplication->renderGizmo() C:\wamp\www\cware\ratingtool\system\application.php:36
+[16-Oct-2014 09:52:17 Europe/Paris] PHP   4. StmTemplate->includeGizmo() C:\wamp\www\cware\ratingtool\system\application.php:82
+[16-Oct-2014 09:52:17 Europe/Paris] PHP   5. AppGizmo->header() C:\wamp\www\cware\ratingtool\system\libraries\document\template.php:176
+[16-Oct-2014 09:52:17 Europe/Paris] PHP   6. StmGizmo->view() C:\wamp\www\cware\ratingtool\application\gizmos\gizmos.php:37
+[16-Oct-2014 09:52:57 Europe/Paris] PHP Parse error:  syntax error, unexpected '$user' (T_VARIABLE), expecting ',' or ';' in C:\wamp\www\cware\ratingtool\application\gizmos\header.php on line 10
+[16-Oct-2014 09:52:57 Europe/Paris] PHP Stack trace:
+[16-Oct-2014 09:52:57 Europe/Paris] PHP   1. {main}() C:\wamp\www\cware\ratingtool\index.php:0
+[16-Oct-2014 09:52:57 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\cware\ratingtool\index.php:41
+[16-Oct-2014 09:52:57 Europe/Paris] PHP   3. StmApplication->renderGizmo() C:\wamp\www\cware\ratingtool\system\application.php:36
+[16-Oct-2014 09:52:57 Europe/Paris] PHP   4. StmTemplate->includeGizmo() C:\wamp\www\cware\ratingtool\system\application.php:82
+[16-Oct-2014 09:52:57 Europe/Paris] PHP   5. AppGizmo->header() C:\wamp\www\cware\ratingtool\system\libraries\document\template.php:176
+[16-Oct-2014 09:52:57 Europe/Paris] PHP   6. StmGizmo->view() C:\wamp\www\cware\ratingtool\application\gizmos\gizmos.php:37
+[20-Nov-2014 07:51:29 Europe/Paris] PHP Parse error:  syntax error, unexpected ':' in C:\wamp\www\cware\ratingtool\application\gizmos\header.php on line 4
+[20-Nov-2014 07:51:29 Europe/Paris] PHP Stack trace:
+[20-Nov-2014 07:51:29 Europe/Paris] PHP   1. {main}() C:\wamp\www\cware\ratingtool\index.php:0
+[20-Nov-2014 07:51:29 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\cware\ratingtool\index.php:41
+[20-Nov-2014 07:51:29 Europe/Paris] PHP   3. StmApplication->renderGizmo() C:\wamp\www\cware\ratingtool\system\application.php:36
+[20-Nov-2014 07:51:29 Europe/Paris] PHP   4. StmTemplate->includeGizmo() C:\wamp\www\cware\ratingtool\system\application.php:82
+[20-Nov-2014 07:51:29 Europe/Paris] PHP   5. AppGizmo->header() C:\wamp\www\cware\ratingtool\system\libraries\document\template.php:176
+[20-Nov-2014 07:51:29 Europe/Paris] PHP   6. StmGizmo->view() C:\wamp\www\cware\ratingtool\application\gizmos\gizmos.php:37
+[18-Mar-2015 11:40:13 Europe/Paris] PHP Parse error:  syntax error, unexpected 'OR' (T_LOGICAL_OR) in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\session\sessionhandler.php on line 59
+[18-Mar-2015 11:40:13 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:40:13 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:40:13 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:35
+[18-Mar-2015 11:40:13 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:25
+[18-Mar-2015 11:40:13 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:30
+[18-Mar-2015 11:40:31 Europe/Paris] PHP Parse error:  syntax error, unexpected 'OR' (T_LOGICAL_OR) in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\session\sessionhandler.php on line 59
+[18-Mar-2015 11:40:31 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:40:31 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:40:31 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:35
+[18-Mar-2015 11:40:31 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:25
+[18-Mar-2015 11:40:31 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:30
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   3. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:24
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   4. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   4. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:80
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   5. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   4. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:81
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   5. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Warning:  scandir(application/templates//style/,application/templates//style/): The system cannot find the file specified. (code: 2) in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Warning:  scandir(application/templates//style/): failed to open dir: No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 84
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Warning:  scandir(application/templates//javascript/,application/templates//javascript/): The system cannot find the file specified. (code: 2) in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Warning:  scandir(application/templates//javascript/): failed to open dir: No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 91
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Warning:  strlen() expects parameter 1 to be string, array given in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php on line 55
+[18-Mar-2015 11:57:56 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   3. StmApplication->setDocTitle() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:38
+[18-Mar-2015 11:57:56 Europe/Paris] PHP   4. strlen() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:55
+[18-Mar-2015 11:57:57 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 11:57:57 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   3. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:24
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   4. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 11:57:57 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 11:57:57 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   4. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:80
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   5. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 11:57:57 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 11:57:57 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   4. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:81
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   5. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 11:57:57 Europe/Paris] PHP Warning:  scandir(application/templates//style/,application/templates//style/): The system cannot find the file specified. (code: 2) in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 11:57:57 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 11:57:57 Europe/Paris] PHP Warning:  scandir(application/templates//style/): failed to open dir: No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 11:57:57 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 11:57:57 Europe/Paris] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 11:57:57 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 11:57:57 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 84
+[18-Mar-2015 11:57:57 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:57:57 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:57:57 Europe/Paris] PHP Warning:  scandir(application/templates//javascript/,application/templates//javascript/): The system cannot find the file specified. (code: 2) in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 11:57:57 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:58 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:58 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:57:58 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:57:58 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 11:57:58 Europe/Paris] PHP Warning:  scandir(application/templates//javascript/): failed to open dir: No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 11:57:58 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:58 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:58 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:57:58 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:57:58 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 11:57:58 Europe/Paris] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 11:57:58 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:58 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:58 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:57:58 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:57:58 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 11:57:58 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 91
+[18-Mar-2015 11:57:58 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:58 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:58 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:57:58 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:57:58 Europe/Paris] PHP Warning:  strlen() expects parameter 1 to be string, array given in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php on line 55
+[18-Mar-2015 11:57:58 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:57:58 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:57:58 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[18-Mar-2015 11:57:58 Europe/Paris] PHP   3. StmApplication->setDocTitle() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:38
+[18-Mar-2015 11:57:58 Europe/Paris] PHP   4. strlen() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:55
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   3. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:24
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   4. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   4. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:80
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   5. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   4. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:81
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   5. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Warning:  scandir(application/templates//style/,application/templates//style/): The system cannot find the file specified. (code: 2) in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Warning:  scandir(application/templates//style/): failed to open dir: No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 84
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Warning:  scandir(application/templates//javascript/,application/templates//javascript/): The system cannot find the file specified. (code: 2) in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Warning:  scandir(application/templates//javascript/): failed to open dir: No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 91
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Warning:  strlen() expects parameter 1 to be string, array given in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php on line 55
+[18-Mar-2015 11:58:41 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   3. StmApplication->setDocTitle() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:38
+[18-Mar-2015 11:58:41 Europe/Paris] PHP   4. strlen() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:55
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   3. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:24
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   4. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   4. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:80
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   5. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   4. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:81
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   5. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Warning:  scandir(application/templates//style/,application/templates//style/): The system cannot find the file specified. (code: 2) in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Warning:  scandir(application/templates//style/): failed to open dir: No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 84
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Warning:  scandir(application/templates//javascript/,application/templates//javascript/): The system cannot find the file specified. (code: 2) in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Warning:  scandir(application/templates//javascript/): failed to open dir: No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 91
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Warning:  strlen() expects parameter 1 to be string, array given in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php on line 55
+[18-Mar-2015 11:58:54 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   3. StmApplication->setDocTitle() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:38
+[18-Mar-2015 11:58:54 Europe/Paris] PHP   4. strlen() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:55
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   3. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:24
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   4. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   4. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:80
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   5. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   4. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:81
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   5. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Warning:  scandir(application/templates//style/,application/templates//style/): The system cannot find the file specified. (code: 2) in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Warning:  scandir(application/templates//style/): failed to open dir: No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 84
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Warning:  scandir(application/templates//javascript/,application/templates//javascript/): The system cannot find the file specified. (code: 2) in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Warning:  scandir(application/templates//javascript/): failed to open dir: No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 91
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Warning:  strlen() expects parameter 1 to be string, array given in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php on line 55
+[18-Mar-2015 12:00:19 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   3. StmApplication->setDocTitle() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:38
+[18-Mar-2015 12:00:19 Europe/Paris] PHP   4. strlen() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:55
+[18-Mar-2015 12:01:26 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 12:01:26 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:26 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:26 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:01:26 Europe/Paris] PHP   3. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:24
+[18-Mar-2015 12:01:26 Europe/Paris] PHP   4. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 12:01:26 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 12:01:26 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:26 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:26 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:01:26 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:01:26 Europe/Paris] PHP   4. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:80
+[18-Mar-2015 12:01:26 Europe/Paris] PHP   5. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 12:01:26 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 12:01:26 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:26 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:26 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:01:26 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:01:26 Europe/Paris] PHP   4. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:81
+[18-Mar-2015 12:01:26 Europe/Paris] PHP   5. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 12:01:26 Europe/Paris] PHP Warning:  scandir(application/templates//style/,application/templates//style/): The system cannot find the file specified. (code: 2) in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 12:01:26 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:26 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:26 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:01:26 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:01:26 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 12:01:26 Europe/Paris] PHP Warning:  scandir(application/templates//style/): failed to open dir: No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 12:01:26 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:26 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 12:01:27 Europe/Paris] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 12:01:27 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 12:01:27 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 84
+[18-Mar-2015 12:01:27 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:01:27 Europe/Paris] PHP Warning:  scandir(application/templates//javascript/,application/templates//javascript/): The system cannot find the file specified. (code: 2) in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 12:01:27 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 12:01:27 Europe/Paris] PHP Warning:  scandir(application/templates//javascript/): failed to open dir: No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 12:01:27 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 12:01:27 Europe/Paris] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 12:01:27 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 12:01:27 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 91
+[18-Mar-2015 12:01:27 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:01:27 Europe/Paris] PHP Warning:  strlen() expects parameter 1 to be string, array given in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php on line 55
+[18-Mar-2015 12:01:27 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   3. StmApplication->setDocTitle() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:38
+[18-Mar-2015 12:01:27 Europe/Paris] PHP   4. strlen() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:55
+[18-Mar-2015 12:01:52 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 12:01:52 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   3. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:24
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   4. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 12:01:52 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 12:01:52 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   4. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:80
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   5. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 12:01:52 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 12:01:52 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   4. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:81
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   5. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 12:01:52 Europe/Paris] PHP Warning:  scandir(application/templates//style/,application/templates//style/): The system cannot find the file specified. (code: 2) in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 12:01:52 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 12:01:52 Europe/Paris] PHP Warning:  scandir(application/templates//style/): failed to open dir: No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 12:01:52 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 12:01:52 Europe/Paris] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 12:01:52 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 12:01:52 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 84
+[18-Mar-2015 12:01:52 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:01:52 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:01:52 Europe/Paris] PHP Warning:  scandir(application/templates//javascript/,application/templates//javascript/): The system cannot find the file specified. (code: 2) in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 12:01:53 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:53 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:01:53 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:01:53 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 12:01:53 Europe/Paris] PHP Warning:  scandir(application/templates//javascript/): failed to open dir: No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 12:01:53 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:53 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:01:53 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:01:53 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 12:01:53 Europe/Paris] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 12:01:53 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:53 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:01:53 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:01:53 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 12:01:53 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 91
+[18-Mar-2015 12:01:53 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:53 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:01:53 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:01:53 Europe/Paris] PHP Warning:  strlen() expects parameter 1 to be string, array given in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php on line 55
+[18-Mar-2015 12:01:53 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:01:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:01:53 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[18-Mar-2015 12:01:53 Europe/Paris] PHP   3. StmApplication->setDocTitle() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:38
+[18-Mar-2015 12:01:53 Europe/Paris] PHP   4. strlen() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:55
+[18-Mar-2015 12:02:04 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 12:02:04 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:02:04 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:02:04 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:02:04 Europe/Paris] PHP   3. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:24
+[18-Mar-2015 12:02:04 Europe/Paris] PHP   4. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 12:02:05 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 12:02:05 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   4. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:80
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   5. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 12:02:05 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\document.php on line 56
+[18-Mar-2015 12:02:05 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   4. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:81
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   5. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:26
+[18-Mar-2015 12:02:05 Europe/Paris] PHP Warning:  scandir(application/templates//style/,application/templates//style/): The system cannot find the file specified. (code: 2) in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 12:02:05 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 12:02:05 Europe/Paris] PHP Warning:  scandir(application/templates//style/): failed to open dir: No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 12:02:05 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 12:02:05 Europe/Paris] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 83
+[18-Mar-2015 12:02:05 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:83
+[18-Mar-2015 12:02:05 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 84
+[18-Mar-2015 12:02:05 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:02:05 Europe/Paris] PHP Warning:  scandir(application/templates//javascript/,application/templates//javascript/): The system cannot find the file specified. (code: 2) in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 12:02:05 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 12:02:05 Europe/Paris] PHP Warning:  scandir(application/templates//javascript/): failed to open dir: No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 12:02:05 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 12:02:05 Europe/Paris] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 90
+[18-Mar-2015 12:02:05 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   4. scandir() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php:90
+[18-Mar-2015 12:02:05 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 91
+[18-Mar-2015 12:02:05 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:36
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   3. StmTemplate->templateHead() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:31
+[18-Mar-2015 12:02:05 Europe/Paris] PHP Warning:  strlen() expects parameter 1 to be string, array given in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php on line 55
+[18-Mar-2015 12:02:05 Europe/Paris] PHP Stack trace:
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   3. StmApplication->setDocTitle() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:38
+[18-Mar-2015 12:02:05 Europe/Paris] PHP   4. strlen() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\application.php:55
+[19-Mar-2015 09:00:35 Europe/Paris] PHP Parse error:  syntax error, unexpected ')' in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\document\template.php on line 68
+[19-Mar-2015 09:00:36 Europe/Paris] PHP Stack trace:
+[19-Mar-2015 09:00:36 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[19-Mar-2015 09:00:36 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[19-Mar-2015 09:00:36 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[19-Mar-2015 09:00:36 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:47
+[20-Mar-2015 06:53:10 Europe/Paris] PHP Fatal error:  Call to a member function getViewId() on a non-object in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php on line 22
+[20-Mar-2015 06:53:11 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 06:53:11 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 06:53:11 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 06:53:11 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 06:53:11 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:59
+[20-Mar-2015 06:53:11 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 06:53:11 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:85
+[20-Mar-2015 06:53:24 Europe/Paris] PHP Fatal error:  Class name must be a valid object or a string in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php on line 22
+[20-Mar-2015 06:53:24 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 06:53:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 06:53:24 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 06:53:24 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 06:53:24 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:59
+[20-Mar-2015 06:53:24 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 06:53:24 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:85
+[20-Mar-2015 07:14:43 Europe/Paris] PHP Fatal error:  Class name must be a valid object or a string in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 37
+[20-Mar-2015 07:14:43 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:14:43 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:14:43 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:14:43 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:14:43 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:14:43 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:14:43 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:14:43 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:14:43 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:14:44 Europe/Paris] PHP Fatal error:  Class name must be a valid object or a string in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 37
+[20-Mar-2015 07:14:44 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:14:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:14:44 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:14:44 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:14:44 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:14:44 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:14:44 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:14:44 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:14:44 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:28:01 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:28:01 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:28:01 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:28:01 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:28:01 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:28:01 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:28:01 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:28:01 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:28:01 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:28:01 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:28:23 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:28:23 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:28:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:28:23 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:28:23 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:28:23 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:28:23 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:28:23 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:28:23 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:28:23 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:28:24 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:28:24 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:28:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:28:24 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:28:24 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:28:24 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:28:24 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:28:24 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:28:24 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:28:24 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:28:25 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:28:25 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:28:25 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:28:25 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:28:25 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:28:25 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:28:25 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:28:25 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:28:25 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:28:25 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:28:47 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:28:47 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:28:47 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:28:47 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:28:47 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:28:47 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:28:47 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:28:47 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:28:47 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:28:47 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:28:57 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:28:57 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:28:57 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:28:57 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:28:57 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:28:57 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:28:57 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:28:57 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:28:57 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:28:57 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:29:09 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:29:09 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:29:09 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:29:09 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:29:09 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:29:09 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:29:09 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:29:09 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:29:09 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:29:09 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:29:18 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 72
+[20-Mar-2015 07:29:18 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:29:18 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:29:18 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:29:18 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:29:18 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:29:18 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:29:18 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:29:18 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:29:18 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:29:18 Europe/Paris] PHP   9. ViewUtil::getDefaultView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php:37
+[20-Mar-2015 07:29:28 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:29:28 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:29:28 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:29:28 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:29:28 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:29:28 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:29:28 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:29:28 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:29:28 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:29:28 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:29:29 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:29:29 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:29:29 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:29:29 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:29:29 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:29:29 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:29:29 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:29:29 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:29:29 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:29:29 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:29:31 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 72
+[20-Mar-2015 07:29:31 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:29:31 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:29:31 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:29:31 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:29:31 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:29:31 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:29:31 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:29:31 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:29:31 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:29:31 Europe/Paris] PHP   9. ViewUtil::getDefaultView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php:37
+[20-Mar-2015 07:29:43 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:29:43 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:29:43 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:29:43 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:29:43 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:29:43 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:29:43 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:29:43 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:29:43 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:29:43 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:34:47 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:34:47 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:34:47 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:34:47 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:34:47 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:34:47 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:34:47 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:34:47 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:34:48 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:34:48 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:35:22 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:35:22 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:35:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:35:22 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:35:22 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:35:22 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:35:22 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:35:22 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:35:22 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:35:22 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:35:23 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:35:23 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:35:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:35:23 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:35:23 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:35:23 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:35:23 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:35:23 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:35:23 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:35:23 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:35:24 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:35:24 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:35:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:35:24 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:35:24 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:35:24 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:35:24 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:35:24 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:35:24 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:35:24 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:35:24 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:35:24 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:35:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:35:24 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:35:24 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:35:24 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:35:24 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:35:24 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:35:24 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:35:24 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:35:32 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:35:32 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:35:32 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:35:32 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:35:32 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:35:32 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:35:32 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:35:32 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:35:32 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:35:32 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:35:33 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:35:33 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:35:33 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:35:33 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:35:33 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:35:33 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:35:33 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:35:33 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:35:33 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:35:33 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:35:47 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:35:47 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:35:47 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:35:47 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:35:47 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:35:47 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:35:47 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:35:47 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:35:47 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:35:47 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:35:47 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:35:47 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:35:47 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:35:47 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:35:47 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:35:47 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:35:47 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:35:47 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:35:47 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:35:47 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:35:47 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:35:47 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:35:47 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:35:47 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:35:47 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:35:48 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:35:48 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:35:48 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:35:48 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:35:48 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:35:53 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:35:53 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:35:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:35:53 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:35:53 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:35:53 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:35:53 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:35:53 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:35:53 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:35:53 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:35:53 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:35:53 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:35:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:35:53 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:35:53 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:35:53 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:35:53 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:35:53 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:35:53 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:35:53 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:36:06 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:36:06 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:36:06 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:36:06 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:36:06 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:36:06 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:36:06 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:36:06 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:36:06 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:36:06 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:36:07 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:36:07 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:36:07 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:36:07 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:36:07 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:36:07 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:36:07 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:36:07 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:36:07 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:36:07 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[20-Mar-2015 07:38:22 Europe/Paris] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\yajukumar\stratum framework\version-2\development\system\libraries\viewUtil.php on line 38
+[20-Mar-2015 07:38:22 Europe/Paris] PHP Stack trace:
+[20-Mar-2015 07:38:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:0
+[20-Mar-2015 07:38:22 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\index.php:37
+[20-Mar-2015 07:38:22 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:38:22 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\bootstrap.php:61
+[20-Mar-2015 07:38:22 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\utility.php:27
+[20-Mar-2015 07:38:22 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\init.php:19
+[20-Mar-2015 07:38:22 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:22
+[20-Mar-2015 07:38:22 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum framework\version-2\development\system\access.php:65
+[23-Mar-2015 10:47:49 Europe/Paris] PHP Fatal error:  Class 'StmCofig' not found in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\viewUtil.php on line 74
+[23-Mar-2015 10:47:49 Europe/Paris] PHP Stack trace:
+[23-Mar-2015 10:47:49 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[23-Mar-2015 10:47:49 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:37
+[23-Mar-2015 10:47:49 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\utility.php:27
+[23-Mar-2015 10:47:49 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\bootstrap.php:61
+[23-Mar-2015 10:47:49 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\utility.php:27
+[23-Mar-2015 10:47:49 Europe/Paris] PHP   6. StmAccess->checkViewLevelAccess() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\init.php:19
+[23-Mar-2015 10:47:49 Europe/Paris] PHP   7. StmAccess->getView() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\access.php:22
+[23-Mar-2015 10:47:49 Europe/Paris] PHP   8. ViewUtil::getViewId() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\access.php:66
+[23-Mar-2015 10:47:49 Europe/Paris] PHP   9. ViewUtil::getDefaultView() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\viewUtil.php:37
+[23-Mar-2015 12:42:25 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\wamp\www\yajukumar\stratum-framework\version-2\development\core\gizmos\login.php on line 25
+[23-Mar-2015 12:42:25 Europe/Paris] PHP Stack trace:
+[23-Mar-2015 12:42:25 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[23-Mar-2015 12:42:25 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[23-Mar-2015 12:42:25 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[23-Mar-2015 12:42:25 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[23-Mar-2015 12:42:25 Europe/Paris] PHP   5. StmController->view() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:132
+[23-Mar-2015 12:42:25 Europe/Paris] PHP   6. require_once() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\controller.php:33
+[23-Mar-2015 12:42:25 Europe/Paris] PHP   7. StmApplication->getGizmo() C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\views\home.php:8
+[23-Mar-2015 12:42:25 Europe/Paris] PHP   8. CoreGizmo->login() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:146
+[23-Mar-2015 12:42:25 Europe/Paris] PHP   9. StmGizmo->view() C:\wamp\www\yajukumar\stratum-framework\version-2\development\core\gizmos\gizmos.php:23
+[10-Apr-2015 12:50:30 Europe/Paris] PHP Fatal error:  Class 'ViewUtil' not found in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\security\security.php on line 20
+[10-Apr-2015 12:50:30 Europe/Paris] PHP Stack trace:
+[10-Apr-2015 12:50:30 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[10-Apr-2015 12:50:30 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:37
+[10-Apr-2015 12:50:30 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\utility.php:27
+[10-Apr-2015 12:50:30 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\bootstrap.php:36
+[10-Apr-2015 12:50:30 Europe/Paris] PHP   5. require_once() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\utility.php:27
+[10-Apr-2015 13:52:08 Europe/Paris] PHP Fatal error:  Call to a member function getGet() on a non-object in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\document.php on line 53
+[10-Apr-2015 13:52:08 Europe/Paris] PHP Stack trace:
+[10-Apr-2015 13:52:08 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[10-Apr-2015 13:52:08 Europe/Paris] PHP   2. StmApplication->loadTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:38
+[10-Apr-2015 13:52:08 Europe/Paris] PHP   3. StmTemplate->getTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:26
+[10-Apr-2015 13:52:08 Europe/Paris] PHP   4. StmDocument->getQueryString() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:28
+[10-Apr-2015 14:03:28 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\views\register.php on line 52
+[10-Apr-2015 14:03:28 Europe/Paris] PHP Stack trace:
+[10-Apr-2015 14:03:28 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[10-Apr-2015 14:03:28 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[10-Apr-2015 14:03:28 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[10-Apr-2015 14:03:28 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[10-Apr-2015 14:03:28 Europe/Paris] PHP   5. StmController->view() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:132
+[13-Apr-2015 08:04:42 Europe/Paris] PHP Parse error:  syntax error, unexpected end of file in C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\views\register.php on line 52
+[13-Apr-2015 08:04:42 Europe/Paris] PHP Stack trace:
+[13-Apr-2015 08:04:42 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[13-Apr-2015 08:04:42 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[13-Apr-2015 08:04:42 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[13-Apr-2015 08:04:42 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[13-Apr-2015 08:04:42 Europe/Paris] PHP   5. StmController->view() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:132
+[13-Apr-2015 09:25:51 Europe/Paris] PHP Fatal error:  Call to undefined function pritn_r() in C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php on line 20
+[13-Apr-2015 09:25:51 Europe/Paris] PHP Stack trace:
+[13-Apr-2015 09:25:51 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[13-Apr-2015 09:25:51 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[13-Apr-2015 09:25:51 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[13-Apr-2015 09:25:51 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[13-Apr-2015 09:25:51 Europe/Paris] PHP   5. ControllerRegister->register() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:139
+[13-Apr-2015 09:41:14 Europe/Paris] PHP Parse error:  syntax error, unexpected 'currentView' (T_STRING), expecting variable (T_VARIABLE) in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\controller.php on line 61
+[13-Apr-2015 09:41:14 Europe/Paris] PHP Stack trace:
+[13-Apr-2015 09:41:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[13-Apr-2015 09:41:14 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[13-Apr-2015 09:41:14 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[13-Apr-2015 09:41:14 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[13-Apr-2015 09:41:14 Europe/Paris] PHP   5. stmImport() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:121
+[13-Apr-2015 11:45:21 Europe/Paris] PHP Fatal error:  Call to private method StmSession::clean() from context '' in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\bootstrap.php on line 35
+[13-Apr-2015 11:45:22 Europe/Paris] PHP Stack trace:
+[13-Apr-2015 11:45:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[13-Apr-2015 11:45:22 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:37
+[13-Apr-2015 11:45:22 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\utility.php:27
+[13-Apr-2015 12:53:42 Europe/Paris] PHP Fatal error:  Class 'StmFoctory' not found in C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php on line 23
+[13-Apr-2015 12:53:42 Europe/Paris] PHP Stack trace:
+[13-Apr-2015 12:53:42 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[13-Apr-2015 12:53:42 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[13-Apr-2015 12:53:42 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[13-Apr-2015 12:53:42 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[13-Apr-2015 12:53:42 Europe/Paris] PHP   5. ControllerRegister->register() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:139
+[13-Apr-2015 12:53:56 Europe/Paris] PHP Fatal error:  Class 'StmForm' not found in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\factory.php on line 100
+[13-Apr-2015 12:53:56 Europe/Paris] PHP Stack trace:
+[13-Apr-2015 12:53:56 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[13-Apr-2015 12:53:56 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[13-Apr-2015 12:53:56 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[13-Apr-2015 12:53:56 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[13-Apr-2015 12:53:56 Europe/Paris] PHP   5. ControllerRegister->register() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:139
+[13-Apr-2015 12:53:56 Europe/Paris] PHP   6. StmFactory::getForm() C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php:23
+[13-Apr-2015 12:54:50 Europe/Paris] PHP Parse error:  syntax error, unexpected ';' in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\form.php on line 35
+[13-Apr-2015 12:54:50 Europe/Paris] PHP Stack trace:
+[13-Apr-2015 12:54:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[13-Apr-2015 12:54:51 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:37
+[13-Apr-2015 12:54:51 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\utility.php:27
+[13-Apr-2015 12:54:51 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\bootstrap.php:51
+[13-Apr-2015 12:55:13 Europe/Paris] PHP Fatal error:  Call to undefined function eplode() in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\form.php on line 26
+[13-Apr-2015 12:55:13 Europe/Paris] PHP Stack trace:
+[13-Apr-2015 12:55:13 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[13-Apr-2015 12:55:13 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[13-Apr-2015 12:55:13 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[13-Apr-2015 12:55:13 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[13-Apr-2015 12:55:13 Europe/Paris] PHP   5. ControllerRegister->register() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:139
+[13-Apr-2015 12:55:13 Europe/Paris] PHP   6. StmForm->validatePostData() C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php:23
+[13-Apr-2015 12:56:40 Europe/Paris] PHP Fatal error:  Cannot access empty property in C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php on line 24
+[13-Apr-2015 12:56:40 Europe/Paris] PHP Stack trace:
+[13-Apr-2015 12:56:40 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[13-Apr-2015 12:56:40 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[13-Apr-2015 12:56:40 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[13-Apr-2015 12:56:40 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[13-Apr-2015 12:56:40 Europe/Paris] PHP   5. ControllerRegister->register() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:139
+[13-Apr-2015 12:56:47 Europe/Paris] PHP Fatal error:  Cannot access empty property in C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php on line 24
+[13-Apr-2015 12:56:47 Europe/Paris] PHP Stack trace:
+[13-Apr-2015 12:56:47 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[13-Apr-2015 12:56:47 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[13-Apr-2015 12:56:47 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[13-Apr-2015 12:56:47 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[13-Apr-2015 12:56:47 Europe/Paris] PHP   5. ControllerRegister->register() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:139
+[13-Apr-2015 12:57:11 Europe/Paris] PHP Fatal error:  Cannot access empty property in C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php on line 24
+[13-Apr-2015 12:57:11 Europe/Paris] PHP Stack trace:
+[13-Apr-2015 12:57:11 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[13-Apr-2015 12:57:11 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[13-Apr-2015 12:57:11 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[13-Apr-2015 12:57:11 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[13-Apr-2015 12:57:11 Europe/Paris] PHP   5. ControllerRegister->register() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:139
+[13-Apr-2015 12:57:42 Europe/Paris] PHP Fatal error:  Cannot access empty property in C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php on line 26
+[13-Apr-2015 12:57:42 Europe/Paris] PHP Stack trace:
+[13-Apr-2015 12:57:42 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[13-Apr-2015 12:57:42 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[13-Apr-2015 12:57:42 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[13-Apr-2015 12:57:42 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[13-Apr-2015 12:57:42 Europe/Paris] PHP   5. ControllerRegister->register() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:139
+[13-Apr-2015 12:57:51 Europe/Paris] PHP Fatal error:  Cannot access empty property in C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php on line 26
+[13-Apr-2015 12:57:51 Europe/Paris] PHP Stack trace:
+[13-Apr-2015 12:57:51 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[13-Apr-2015 12:57:51 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[13-Apr-2015 12:57:51 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[13-Apr-2015 12:57:51 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[13-Apr-2015 12:57:51 Europe/Paris] PHP   5. ControllerRegister->register() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:139
+[13-Apr-2015 13:16:24 Europe/Paris] PHP Parse error:  syntax error, unexpected ';', expecting ']' in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\form.php on line 30
+[13-Apr-2015 13:16:24 Europe/Paris] PHP Stack trace:
+[13-Apr-2015 13:16:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[13-Apr-2015 13:16:24 Europe/Paris] PHP   2. stmImport() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:37
+[13-Apr-2015 13:16:24 Europe/Paris] PHP   3. require_once() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\utility.php:27
+[13-Apr-2015 13:16:24 Europe/Paris] PHP   4. stmImport() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\bootstrap.php:51
+[13-Apr-2015 13:26:02 Europe/Paris] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php on line 31
+[13-Apr-2015 13:26:02 Europe/Paris] PHP Stack trace:
+[13-Apr-2015 13:26:02 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[13-Apr-2015 13:26:02 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[13-Apr-2015 13:26:02 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[13-Apr-2015 13:26:02 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[13-Apr-2015 13:26:02 Europe/Paris] PHP   5. ControllerRegister->register() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:139
+[13-Apr-2015 13:27:48 Europe/Paris] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php on line 73
+[13-Apr-2015 13:27:48 Europe/Paris] PHP Stack trace:
+[13-Apr-2015 13:27:48 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[13-Apr-2015 13:27:48 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[13-Apr-2015 13:27:48 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[13-Apr-2015 13:27:48 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[13-Apr-2015 13:27:48 Europe/Paris] PHP   5. stmImport() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:123
+[13-Apr-2015 13:34:48 Europe/Paris] PHP Fatal error:  Call to undefined method StmForm::generateUserToken() in C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php on line 37
+[13-Apr-2015 13:34:48 Europe/Paris] PHP Stack trace:
+[13-Apr-2015 13:34:48 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[13-Apr-2015 13:34:48 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[13-Apr-2015 13:34:48 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[13-Apr-2015 13:34:48 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[13-Apr-2015 13:34:48 Europe/Paris] PHP   5. ControllerRegister->register() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:139
+[13-Apr-2015 13:47:46 Europe/Paris] PHP Fatal error:  Call to a member function sendMail() on a non-object in C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php on line 72
+[13-Apr-2015 13:47:46 Europe/Paris] PHP Stack trace:
+[13-Apr-2015 13:47:46 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[13-Apr-2015 13:47:46 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[13-Apr-2015 13:47:46 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[13-Apr-2015 13:47:46 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[13-Apr-2015 13:47:46 Europe/Paris] PHP   5. ControllerRegister->register() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:139
+[13-Apr-2015 13:47:46 Europe/Paris] PHP   6. ControllerRegister->afterSave() C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php:44
+[13-Apr-2015 13:48:15 Europe/Paris] PHP Fatal error:  Uncaught exception 'CustomException' with message 'Recipient can not be blank.' in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php:18
+Stack trace:
+#0 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php(117): StmMailer->setRecipient(NULL)
+#1 C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php(72): StmMailer->sendMail(NULL, 'user_activation', Array, Array, 'YES')
+#2 C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php(44): ControllerRegister->afterSave('e51da9e7fce3a74...', Array)
+#3 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php(139): ControllerRegister->register()
+#4 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php(100): StmTemplate->includeContentMVC()
+#5 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php(37): StmApplication->se in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php on line 18
+[13-Apr-2015 13:48:36 Europe/Paris] PHP Fatal error:  Uncaught exception 'CustomException' with message 'File do not exists' in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php:34
+Stack trace:
+#0 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php(53): StmMailer->getEmailFileContent()
+#1 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php(121): StmMailer->getSubject()
+#2 C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php(72): StmMailer->sendMail('e', 'user_activation', Array, Array, 'YES')
+#3 C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php(44): ControllerRegister->afterSave('e51da9e7fce3a74...', Array)
+#4 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php(139): ControllerRegister->register()
+#5 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php(100): StmTemplate->includeContentMVC()
+#6 in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php on line 34
+[13-Apr-2015 13:49:07 Europe/Paris] PHP Fatal error:  Uncaught exception 'CustomException' with message 'File do not exists' in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php:34
+Stack trace:
+#0 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php(53): StmMailer->getEmailFileContent()
+#1 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php(121): StmMailer->getSubject()
+#2 C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php(71): StmMailer->sendMail('e', 'user_activation', Array, Array, 'YES')
+#3 C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php(44): ControllerRegister->afterSave('e51da9e7fce3a74...', Array)
+#4 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php(139): ControllerRegister->register()
+#5 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php(100): StmTemplate->includeContentMVC()
+#6 in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php on line 34
+[13-Apr-2015 14:41:46 Europe/Paris] PHP Fatal error:  Uncaught exception 'CustomException' with message 'Recipient can not be blank.' in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php:18
+Stack trace:
+#0 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php(117): StmMailer->setRecipient(NULL)
+#1 C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php(96): StmMailer->sendMail(NULL, 'add_new_user', Array, Array, 'YES')
+#2 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php(139): ControllerRegister->activate()
+#3 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php(100): StmTemplate->includeContentMVC()
+#4 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php(37): StmApplication->setTemplateBody()
+#5 C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php(39): StmApplication->dispatchTemplate()
+#6 {main}
+  thrown in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php on line 18
+[13-Apr-2015 14:42:22 Europe/Paris] PHP Fatal error:  Uncaught exception 'CustomException' with message 'Recipient can not be blank.' in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php:18
+Stack trace:
+#0 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php(117): StmMailer->setRecipient(NULL)
+#1 C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php(100): StmMailer->sendMail(NULL, 'add_new_user', Array, Array, 'YES')
+#2 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php(139): ControllerRegister->activate()
+#3 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php(100): StmTemplate->includeContentMVC()
+#4 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php(37): StmApplication->setTemplateBody()
+#5 C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php(39): StmApplication->dispatchTemplate()
+#6 {main}
+  thrown in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php on line 18
+[13-Apr-2015 14:43:30 Europe/Paris] PHP Fatal error:  Uncaught exception 'CustomException' with message 'Recipient can not be blank.' in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php:18
+Stack trace:
+#0 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php(117): StmMailer->setRecipient(NULL)
+#1 C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php(100): StmMailer->sendMail(NULL, 'add_new_user', Array, Array, 'YES')
+#2 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php(139): ControllerRegister->activate()
+#3 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php(100): StmTemplate->includeContentMVC()
+#4 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php(37): StmApplication->setTemplateBody()
+#5 C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php(39): StmApplication->dispatchTemplate()
+#6 {main}
+  thrown in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php on line 18
+[13-Apr-2015 14:43:43 Europe/Paris] PHP Fatal error:  Uncaught exception 'CustomException' with message 'Recipient can not be blank.' in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php:18
+Stack trace:
+#0 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php(117): StmMailer->setRecipient(NULL)
+#1 C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php(100): StmMailer->sendMail(NULL, 'add_new_user', Array, Array, 'YES')
+#2 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php(139): ControllerRegister->activate()
+#3 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php(100): StmTemplate->includeContentMVC()
+#4 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php(37): StmApplication->setTemplateBody()
+#5 C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php(39): StmApplication->dispatchTemplate()
+#6 {main}
+  thrown in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php on line 18
+[13-Apr-2015 14:45:37 Europe/Paris] PHP Fatal error:  Uncaught exception 'CustomException' with message 'Recipient can not be blank.' in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php:18
+Stack trace:
+#0 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php(117): StmMailer->setRecipient(NULL)
+#1 C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php(106): StmMailer->sendMail(NULL, 'add_new_user', Array, Array, 'YES')
+#2 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php(139): ControllerRegister->activate()
+#3 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php(100): StmTemplate->includeContentMVC()
+#4 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php(37): StmApplication->setTemplateBody()
+#5 C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php(39): StmApplication->dispatchTemplate()
+#6 {main}
+  thrown in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php on line 18
+[13-Apr-2015 15:11:21 Europe/Paris] PHP Fatal error:  Call to undefined function pritn_r() in C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php on line 124
+[13-Apr-2015 15:11:21 Europe/Paris] PHP Stack trace:
+[13-Apr-2015 15:11:21 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[13-Apr-2015 15:11:21 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[13-Apr-2015 15:11:21 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[13-Apr-2015 15:11:21 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[13-Apr-2015 15:11:21 Europe/Paris] PHP   5. ControllerRegister->login() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:139
+[13-Apr-2015 15:27:31 Europe/Paris] PHP Fatal error:  require_once(): Failed opening required 'application/views/view=dashboard.php' (include_path='.;C:\php\pear') in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\controller.php on line 33
+[13-Apr-2015 15:27:31 Europe/Paris] PHP Stack trace:
+[13-Apr-2015 15:27:31 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[13-Apr-2015 15:27:31 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[13-Apr-2015 15:27:31 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[13-Apr-2015 15:27:31 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[13-Apr-2015 15:27:31 Europe/Paris] PHP   5. ControllerRegister->login() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:139
+[13-Apr-2015 15:27:31 Europe/Paris] PHP   6. StmController->view() C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php:126
+[14-Apr-2015 08:36:37 Europe/Paris] PHP Fatal error:  Uncaught exception 'CustomException' with message 'BCC can not be blank.' in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php:20
+Stack trace:
+#0 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php(167): StmMailer->setBCC('')
+#1 C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php(76): StmMailer->sendMail('yajuvendra@comp...', 'user_activation', Array, Array, 'NO')
+#2 C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php(44): ControllerRegister->afterSave(Array, Array)
+#3 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php(139): ControllerRegister->register()
+#4 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php(100): StmTemplate->includeContentMVC()
+#5 C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php(37): StmApplication->setTemplateBody( in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php on line 20
+[14-Apr-2015 08:39:31 Europe/Paris] PHP Fatal error:  Call to undefined method PHPMailer::ClearBCC() in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php on line 160
+[14-Apr-2015 08:39:31 Europe/Paris] PHP Stack trace:
+[14-Apr-2015 08:39:31 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[14-Apr-2015 08:39:31 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[14-Apr-2015 08:39:31 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[14-Apr-2015 08:39:31 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[14-Apr-2015 08:39:31 Europe/Paris] PHP   5. ControllerRegister->register() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:139
+[14-Apr-2015 08:39:31 Europe/Paris] PHP   6. ControllerRegister->afterSave() C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php:44
+[14-Apr-2015 08:39:31 Europe/Paris] PHP   7. StmMailer->sendMail() C:\wamp\www\yajukumar\stratum-framework\version-2\development\application\controllers\register.php:76
+[14-Apr-2015 08:39:31 Europe/Paris] PHP   8. StmMailer->sendSmtp() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\email\mail.php:179
+[15-Apr-2015 09:08:58 Europe/Paris] PHP Fatal error:  require_once(): Failed opening required 'application/views/login.php' (include_path='.;C:\php\pear') in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\controller.php on line 33
+[15-Apr-2015 09:08:58 Europe/Paris] PHP Stack trace:
+[15-Apr-2015 09:08:58 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[15-Apr-2015 09:08:58 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[15-Apr-2015 09:08:58 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[15-Apr-2015 09:08:58 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[15-Apr-2015 09:08:58 Europe/Paris] PHP   5. StmController->view() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:143
+[15-Apr-2015 09:14:32 Europe/Paris] PHP Fatal error:  Call to undefined method AppGizmo::header() in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php on line 197
+[15-Apr-2015 09:14:32 Europe/Paris] PHP Stack trace:
+[15-Apr-2015 09:14:32 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[15-Apr-2015 09:14:32 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[15-Apr-2015 09:14:32 Europe/Paris] PHP   3. StmApplication->renderGizmo() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:38
+[15-Apr-2015 09:14:32 Europe/Paris] PHP   4. StmTemplate->includeGizmo() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:89
+[15-Apr-2015 09:14:39 Europe/Paris] PHP Fatal error:  Call to undefined method AppGizmo::header() in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php on line 197
+[15-Apr-2015 09:14:39 Europe/Paris] PHP Stack trace:
+[15-Apr-2015 09:14:39 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[15-Apr-2015 09:14:39 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[15-Apr-2015 09:14:39 Europe/Paris] PHP   3. StmApplication->renderGizmo() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:38
+[15-Apr-2015 09:14:39 Europe/Paris] PHP   4. StmTemplate->includeGizmo() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:89
+[15-Apr-2015 09:17:21 Europe/Paris] PHP Fatal error:  Call to undefined method AppGizmo::header() in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php on line 197
+[15-Apr-2015 09:17:21 Europe/Paris] PHP Stack trace:
+[15-Apr-2015 09:17:21 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[15-Apr-2015 09:17:21 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[15-Apr-2015 09:17:21 Europe/Paris] PHP   3. StmApplication->renderGizmo() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:38
+[15-Apr-2015 09:17:21 Europe/Paris] PHP   4. StmTemplate->includeGizmo() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:89
+[15-Apr-2015 09:17:22 Europe/Paris] PHP Fatal error:  Call to undefined method AppGizmo::header() in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php on line 197
+[15-Apr-2015 09:17:22 Europe/Paris] PHP Stack trace:
+[15-Apr-2015 09:17:22 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[15-Apr-2015 09:17:22 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[15-Apr-2015 09:17:22 Europe/Paris] PHP   3. StmApplication->renderGizmo() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:38
+[15-Apr-2015 09:17:22 Europe/Paris] PHP   4. StmTemplate->includeGizmo() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:89
+[15-Apr-2015 09:52:45 Europe/Paris] PHP Fatal error:  Call to undefined method ControllerRegister::forgotpass() in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php on line 150
+[15-Apr-2015 09:52:45 Europe/Paris] PHP Stack trace:
+[15-Apr-2015 09:52:45 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[15-Apr-2015 09:52:45 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[15-Apr-2015 09:52:45 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[15-Apr-2015 09:52:45 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[15-Apr-2015 11:49:29 Europe/Paris] PHP Fatal error:  Call to undefined method StmFactory::checkPostError() in C:\wamp\www\yajukumar\stratum-framework\version-2\development\core\controllers\register.php on line 142
+[15-Apr-2015 11:49:29 Europe/Paris] PHP Stack trace:
+[15-Apr-2015 11:49:29 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[15-Apr-2015 11:49:29 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[15-Apr-2015 11:49:29 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[15-Apr-2015 11:49:29 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[15-Apr-2015 11:49:29 Europe/Paris] PHP   5. ControllerRegister->sendPassword() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:150
+[15-Apr-2015 11:49:53 Europe/Paris] PHP Fatal error:  Call to undefined method StmForm::getForm() in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\form.php on line 43
+[15-Apr-2015 11:49:53 Europe/Paris] PHP Stack trace:
+[15-Apr-2015 11:49:53 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[15-Apr-2015 11:49:53 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[15-Apr-2015 11:49:53 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[15-Apr-2015 11:49:53 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[15-Apr-2015 11:49:53 Europe/Paris] PHP   5. ControllerRegister->sendPassword() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:150
+[15-Apr-2015 11:49:53 Europe/Paris] PHP   6. StmForm->checkPostError() C:\wamp\www\yajukumar\stratum-framework\version-2\development\core\controllers\register.php:142
+[15-Apr-2015 11:50:14 Europe/Paris] PHP Fatal error:  Call to undefined method StmForm::getForm() in C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\form.php on line 43
+[15-Apr-2015 11:50:14 Europe/Paris] PHP Stack trace:
+[15-Apr-2015 11:50:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[15-Apr-2015 11:50:14 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[15-Apr-2015 11:50:14 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[15-Apr-2015 11:50:14 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[15-Apr-2015 11:50:14 Europe/Paris] PHP   5. ControllerRegister->sendPassword() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:150
+[15-Apr-2015 11:50:14 Europe/Paris] PHP   6. StmForm->checkPostError() C:\wamp\www\yajukumar\stratum-framework\version-2\development\core\controllers\register.php:142
+[29-Apr-2015 07:24:55 Europe/Paris] PHP Parse error:  syntax error, unexpected ')' in C:\wamp\www\yajukumar\stratum-framework\version-2\development\core\controllers\register.php on line 132
+[29-Apr-2015 07:24:55 Europe/Paris] PHP Stack trace:
+[29-Apr-2015 07:24:55 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[29-Apr-2015 07:24:55 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[29-Apr-2015 07:24:55 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[29-Apr-2015 07:24:55 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[29-Apr-2015 07:24:55 Europe/Paris] PHP   5. stmImport() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:133
+[29-Apr-2015 07:25:00 Europe/Paris] PHP Parse error:  syntax error, unexpected ')' in C:\wamp\www\yajukumar\stratum-framework\version-2\development\core\controllers\register.php on line 132
+[29-Apr-2015 07:25:00 Europe/Paris] PHP Stack trace:
+[29-Apr-2015 07:25:00 Europe/Paris] PHP   1. {main}() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:0
+[29-Apr-2015 07:25:00 Europe/Paris] PHP   2. StmApplication->dispatchTemplate() C:\wamp\www\yajukumar\stratum-framework\version-2\development\index.php:39
+[29-Apr-2015 07:25:00 Europe/Paris] PHP   3. StmApplication->setTemplateBody() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:37
+[29-Apr-2015 07:25:00 Europe/Paris] PHP   4. StmTemplate->includeContentMVC() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\application.php:100
+[29-Apr-2015 07:25:00 Europe/Paris] PHP   5. stmImport() C:\wamp\www\yajukumar\stratum-framework\version-2\development\system\libraries\document\template.php:133
+[07-Sep-2016 06:57:42 Europe/Berlin] PHP Fatal error:  Call to undefined method ModelDashboard::getEvaluation() in C:\xampp\htdocs\stratum\application\views\dashboard.php on line 13

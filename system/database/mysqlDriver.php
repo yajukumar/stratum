@@ -44,8 +44,8 @@ class MysqlDriver{
 	 */
 	public function mysqlDboCon(){
 		try{
-			if( function_exists('mysql_connect') ){
-				if( !($this->oMysqlCon   = @ mysql_connect( $this->sHost, $this->sUser, $this->sPass ) ) ){
+			if( function_exists('mysqli_connect') ){
+				if( !($this->oMysqlCon   = @ mysqli_connect( $this->sHost, $this->sUser, $this->sPass ) ) ){
 					throw new DatabaseException( 'Mysql connection not establised.');
 				}
 			}
@@ -65,10 +65,10 @@ class MysqlDriver{
 			if( !$this->oMysqlCon ){
 				$this->mysqlDboCon();
 			}
-			if( !function_exists('mysql_select_db') ){
+			if( !function_exists('mysqli_select_db') ){
 				throw new DatabaseException( 'Database not selected.' );
 			}
-			if( !($mysqlDatabase = @mysql_select_db($this->sDbName, $this->oMysqlCon))){
+			if( !($mysqlDatabase = @mysqli_select_db($this->oMysqlCon, $this->sDbName))){
 				throw new DatabaseException( 'Database not selected.' );
 			}
 		}catch ( DatabaseException $e ){

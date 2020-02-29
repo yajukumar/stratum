@@ -58,11 +58,11 @@ class MysqlQuery extends MysqlDriver{
      */
 	private function mysqlExecuteQuery( ){
 		$this->logQuery[]   =   $this->mysqlQuery;
-		if( !function_exists('mysql_query') ){
+		if( !function_exists('mysqli_query') ){
 			throw new DatabaseException( 'Unable to execute mysql query' );
 		}
 		try{
-			if( !( $this->mysqlQueryResourceId = @mysql_query( $this->mysqlQuery, $this->oMysqlCon ))){
+			if( !( $this->mysqlQueryResourceId = @mysqli_query( $this->oMysqlCon, $this->mysqlQuery ))){
 				// throw new DatabaseException( 'Unable to execute mysql query'
 				// .' [ Query is: '.$this->mysqlQuery.']'.$this->mysqlErrorMessage() );
 				throw new DatabaseException( 'Unable to execute mysql query.<br/>Query: <i>'.$this->mysqlQuery.'</i>');

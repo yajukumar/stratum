@@ -14,6 +14,6 @@ if( file_exists( BASE_PATH.DS.'system'.DS.'database'.DS.'mysqlResult.php' ) ){
 */
 class mysqlUtility extends MysqlResult {
 	public function realEscapeString($str) {	
-		return mysql_real_escape_string($str);
+		return mysqli_real_escape_string($str);
 	}
 }

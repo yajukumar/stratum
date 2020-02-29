@@ -21,17 +21,17 @@ defined( 'STRATUM' )or die('Forbidden');
  abstract class StmConfig {
     public static $environment 	= 1;		// 1=development, 0= production, 2= offline
     public static $host 		= 'localhost';
-    public static $debug    	= 0; 		// 1=yes, 0=no
+    public static $debug    	= 1; 		// 1=yes, 0=no
     public static $livepath     = "http://localhost/yajukumar/stratum-framework/version-2/development/";       //Site url
 	public static $siteName 	= 'Stratum';
 	public static $addSiteName 	= 1;//Add site name in title 1=yes, 0= no
-	public static $copyright 	= 'Copyright 2015@ Stratum';//This will add in site footer
+	public static $copyright 	= 'Copyright 2020@ Stratum';//This will add in site footer
 //============================Logging
 	public static $log_file 	= 'logs/logs.txt';
 //============================Database Setting
 	public static $dbUser 		= 'root';
     public static $pass 		= '';
-    public static $dbName 		= 'stratum_v2';
+    public static $dbName 		= 'stratum_v3';
     public static $dbSuffix 	= 'stm_';
 //============================Email Setting
 	public static $addReplyToName = 'Stratum';

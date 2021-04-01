@@ -8,7 +8,11 @@
         "php": "^7.3|^8.0"
     },
     "require-dev": {},
-    "autoload": {},
+    "autoload": {        
+        "psr-0": {
+            "Stratum": "core/"
+        }
+    },
     "authors": [
         {
             "name": "Yajukumar",

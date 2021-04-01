@@ -7,12 +7,14 @@
     "require": {
         "php": "^7.3|^8.0"
     },
+    "require-dev": {},
+    "autoload": {},
     "authors": [
         {
             "name": "Yajukumar",
             "email": "yajukumar@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }

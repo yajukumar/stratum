@@ -12,6 +12,8 @@
             "Stratum": "core/"
         }
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Yajukumar",

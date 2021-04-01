@@ -4,6 +4,14 @@
     "description": "The Stratum Php Framework.",
     "keywords": ["framework", "stratum"],
     "license": "MIT",
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "authors": [
+        {
+            "name": "Yajukumar",
+            "email": "yajukumar@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
 }

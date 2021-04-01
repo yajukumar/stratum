@@ -3,5 +3,5 @@
      "type": "project",
     "description": "The Stratum Php Framework.",
     "keywords": ["framework", "stratum"],
-    "license": "GNU",
+    "license": "GNU"
 }

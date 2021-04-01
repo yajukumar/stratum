@@ -15,7 +15,9 @@
             "email": "yajukumar@gmail.com"
         }
     ],
-    "psr-4": {
-    "Core\\": "core/",
+    "autoload": {
+        "psr-4": {
+        "Core\\": "core/",
+        }
     }
 }

@@ -4,6 +4,6 @@
     "description": "The Stratum Php Framework.",
     "keywords": ["framework", "stratum"],
     "license": "MIT",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }

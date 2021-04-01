@@ -1,5 +1,5 @@
 {
-    "name": "yajukumar/stratum",
+    "name": "stratum/stratum",
     "type": "project",
     "description": "The Stratum Php Framework.",
     "keywords": ["framework", "stratum"],

@@ -15,7 +15,7 @@
             "email": "yajukumar@gmail.com"
         }
     ],
-    "psr-0": {
-            "Stratum": "src"
-        }
+    "psr-4": {
+    "Core\\": "core/",
+    }
 }
